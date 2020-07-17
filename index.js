@@ -8,8 +8,8 @@ const bot = new Discord.Client({ disableEveryone: true });
 const cooldowns = new Discord.Collection();
 const DBL = require("dblapi.js");
 const { PNGStream } = require("canvas");
-const dbl = new DBL("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjcwMTc0MTIzNzk2Njk5NTQ1NiIsImJvdCI6dHJ1ZSwiaWF0IjoxNTkzMDcyNTk3fQ.M3rO-J0iOFUn1wJGwNQ0Qje1zaykSdqEFjPcKaCHZ7M", bot);
-const DBLwebhook = new DBL("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjcwMTc0MTIzNzk2Njk5NTQ1NiIsImJvdCI6dHJ1ZSwiaWF0IjoxNTkzMDcyNTk3fQ.M3rO-J0iOFUn1wJGwNQ0Qje1zaykSdqEFjPcKaCHZ7M", { webhookPort: 2000, webhookAuth: 'Ginge2019' });
+const dbl = new DBL("kek", bot);
+const DBLwebhook = new DBL("kek", { webhookPort: 2000, webhookAuth: 'kek' });
 bot.commands = new Discord.Collection();
 bot.aliases = new Discord.Collection();
 
@@ -36,7 +36,7 @@ bot.on("ready", async () => {
   console.log("Connected to Mongo")
 });
 
-  let mongoDB = MongoClient.connect(`mongodb+srv://Tepper:91OvUjP0EqLGaIJO@cluster0.6guyy.azure.mongodb.net`, {useUnifiedTopology:true} ).then(mongoDB => {
+  let mongoDB = MongoClient.connect(`mongodb+srv://kek:kek@cluster0.6guyy.azure.mongodb.net`, {useUnifiedTopology:true} ).then(mongoDB => {
   bot.db = mongoDB.db("Deku-DB");
 }).catch(console.error)
 
