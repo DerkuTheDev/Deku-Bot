@@ -1,6 +1,3 @@
-[![Discord Bots](https://top.gg/api/widget/701741237966995456.svg)](https://top.gg/bot/701741237966995456)
-
-
 # Information Commands
 ## • Info
 profile, serverid, serverinfo, userid, userinfo
