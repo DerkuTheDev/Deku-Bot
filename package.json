@@ -20,7 +20,7 @@
     "moment": "^2.27.0",
     "mongodb": "^3.5.9",
     "mongoose": "^5.9.24",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "novelcovid": "^2.2.0",
     "pokedex-promise-v2": "^3.2.0",
     "quick.db": "^7.1.1",
